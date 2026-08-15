@@ -2,13 +2,17 @@
 
 using namespace std;
 
-void prtinItems(int val){
-    for(int i=1; i<=val; i++){
-        cout<<i<<endl;
+void prtinItems(int val)
+{
+    for (int i = 1; i <= val; i++)
+    {
+        cout << i << endl;
     }
 }
 
-int main(){
+int main()
+{
+    cout << "Big O1" << endl;
     prtinItems(10);
     return 0;
 }
