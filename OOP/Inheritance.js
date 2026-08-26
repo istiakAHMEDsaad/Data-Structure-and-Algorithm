@@ -1,4 +1,4 @@
-// Isolate Impact of Change
+// Eliminate redundant code
 class Player {
   #name;
   #age;
